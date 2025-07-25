@@ -1,0 +1,19 @@
+├── app.py                ← ponto de entrada principal (carrega rotas e socket)
+├── config.py             ← configurações globais (ex: pasta PDF, chave)
+├── run_eventlet.py       ← script para rodar o servidor com eventlet
+├── routes/
+│   ├── pedidos.py  ➝ lógica das rotas de pedidos
+│   ├── pagamentos.py  ➝ lógica de verificação e webhook
+├── services/
+│   ├── mercado_pago.py  ➝ chamadas à API do Mercado Pago
+│   ├── pdf_service.py  ➝ geração de PDFs
+│   ├── fila_service.py  ➝ controle da fila
+│   ├── historico_service.py  ➝ controle de histórico
+├── websocket/
+│   └── socket_events.py  ➝ eventos socket.io
+├── utils/
+│   └── validators.py  ➝ validações de entrada
+├── .env  ➝ variáveis de ambiente
+├── pagamentos.json  ➝ histórico de pagamentos
+├── fila.json  ➝ controle da fila de pedidos
+├── requirements.txt  ➝ dependências

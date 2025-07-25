@@ -1,0 +1,8 @@
+flask
+requests
+python-dotenv
+reportlab
+flask_cors
+pyinstaller
+flask_socketio
+eventlet
