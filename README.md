@@ -1,8 +1,3 @@
-It looks like you're creating a `README.md` file for your `mercado_pago_api.git` project\! I can help you fill in those `REPLACE-ME` sections and provide more details, especially for the "Getting Started" section.
-
-Here's an updated version of your `README.md` with descriptions and instructions, focusing on how a user can get your project up and running.
-
-````markdown
 <p align="center">
     <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="center" width="30%">
 </p>
@@ -103,7 +98,7 @@ Here's an updated version of your `README.md` with descriptions and instructions
         ├── __init__.py
         ├── __pycache__
         └── socket_events.py
-````
+
 
 ### 📂 Project Index
 
