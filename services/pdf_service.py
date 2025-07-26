@@ -3,7 +3,7 @@ from reportlab.lib.pagesizes import letter
 from config import PASTA_PDF
 import os
 
-def gerar_pdf(pedido_numero, nome_cliente, telefone, cpf, endereco, produtos, valor, tipo_pagamento="desconhecido", data_pagamento=None):
+def gerar_pdf(pedido_numero, nome_cliente, telefone, cpf, endereco, produtos, valor, tipo_pagamento, data_pagamento=None):
     # Garante que a pasta existe
     if not os.path.exists(PASTA_PDF):
         os.makedirs(PASTA_PDF)

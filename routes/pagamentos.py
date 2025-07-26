@@ -42,9 +42,11 @@ def webhook():
                 endereco="",
                 produtos=[],
                 valor=pagamento["valor"],
-                data_pagamento=pagamento["data"]
+                tipo_pagamento="",
+                data_pagamento=pagamento["data"],
             )
             salvar_cache_status()
+            print("Notificando pix pago para o frontend")
             notificar_pix_pago(pagamento_id)
             print(f"✅ Pagamento {pagamento_id} aprovado e PDF gerado")
         else:

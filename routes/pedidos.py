@@ -14,7 +14,7 @@ def criar_pedido():
     try:
         dados = request.json
         print("📦 Dados recebidos do front:", dados)
-
+        
         # Valida chave secreta
         if dados.get("chave_secreta") != os.getenv("API_SECRET_KEY"):
             return jsonify({"erro": "Chave secreta inválida"}), 401
@@ -38,7 +38,7 @@ def criar_pedido():
         numero = incrementar_fila()
 
         # Gera PDF (mesmo que falhe o pagamento, para controle interno)
-        gerar_pdf(numero, nome, telefone, cpf, endereco, produtos, valor)
+        # gerar_pdf(numero, nome, telefone, cpf, endereco, produtos, valor)
 
         if metodo == "pix":
             retorno = criar_cobranca_pix(numero, nome, email, valor)
