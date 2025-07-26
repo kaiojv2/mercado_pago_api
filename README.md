@@ -55,7 +55,7 @@
 
 ## 📁 Project Structure
 
-```sh
+sh
 └── mercado_pago_api.git/
     ├── README.md
     ├── __pycache__
