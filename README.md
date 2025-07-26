@@ -46,11 +46,7 @@ backend/
 └── utils/
 └── validators.py # Validação dos dados recebidos
 
-yaml
-Copiar
-Editar
 
----
 
 ## ⚙️ Instalação e Execução
 
