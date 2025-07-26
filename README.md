@@ -58,8 +58,8 @@
     │   └── config.cpython-313.pyc
     ├── app.py
     ├── build
-    │   ├── run_eventlet
-    │   └── run_waitress
+    │   └── run_eventlet
+    ├── config.py
     ├── dist
     │   └── run_eventlet.exe
     ├── estrutura_projeto.txt
@@ -67,6 +67,9 @@
     ├── ngrok
     │   ├── ngrok http 5000.txt
     │   └── ngrok.exe
+    ├── notas_pedidos
+    │   ├── pedido_119416052431.pdf
+    │   └── pedido_119925864350.pdf
     ├── pagamentos.json
     ├── pagamentos_cache.json
     ├── requirements.txt
@@ -117,6 +120,10 @@
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/app.py'>app.py</a></b></td>
+				<td><code>❯ REPLACE-ME</code></td>
+			</tr>
+			<tr>
+				<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/config.py'>config.py</a></b></td>
 				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
@@ -190,45 +197,6 @@
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/build/run_eventlet/PYZ-00.toc'>PYZ-00.toc</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					</table>
-				</blockquote>
-			</details>
-			<details>
-				<summary><b>run_waitress</b></summary>
-				<blockquote>
-					<table>
-					<tr>
-						<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/build/run_waitress/PKG-00.toc'>PKG-00.toc</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/build/run_waitress/Analysis-00.toc'>Analysis-00.toc</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/build/run_waitress/EXE-00.toc'>EXE-00.toc</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/build/run_waitress/run_waitress.pkg'>run_waitress.pkg</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/build/run_waitress/warn-run_waitress.txt'>warn-run_waitress.txt</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/build/run_waitress/xref-run_waitress.html'>xref-run_waitress.html</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/build/run_waitress/PYZ-00.pyz'>PYZ-00.pyz</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
-					</tr>
-					<tr>
-						<td><b><a href='https://github.com/kaiojv2/mercado_pago_api.git/blob/master/build/run_waitress/PYZ-00.toc'>PYZ-00.toc</a></b></td>
 						<td><code>❯ REPLACE-ME</code></td>
 					</tr>
 					</table>
